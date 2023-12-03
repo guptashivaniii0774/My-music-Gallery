@@ -1,0 +1,102 @@
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+    height: 60px;
+
+
+}
+
+.brand img {
+    width: 200px;
+   
+}
+
+
+.container {
+    min-height: 70vh;
+    background-color: black;
+    color: white;
+    font-family: 'varela-round', 'sans-serif';
+    display: flex;
+    margin: 23px auto;
+    width: 70%;
+    border-radius: 12px;
+    padding: 30px;
+    background-image: url("https:/source.unsplash.com/random/?music");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bottom {
+    position: sticky;
+    height: 120px;
+    bottom: 10;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+
+}
+
+.icons {
+    margin: 10px;
+
+}
+
+.icons i {
+    cursor: pointer;
+}
+
+#myProgressBar {
+    width: 80vw;
+    cursor: pointer;
+}
+
+
+.songItem {
+
+    height: 45px;
+    display: flex;
+    background-color: #fff;
+    color: black;
+    justify-content: space-between;
+    align-items: center;
+    margin: 12px;
+    border-radius: 34px;
+    padding: 10px;
+
+}
+
+
+
+.songItem img {
+    width: 43px;
+    border-radius: 50%;
+}
+
+
+
+
+
+.songinfo {
+    position: absolute;
+    left: 10vw;
+    font-family: 'varela-round', 'sans-serif';
+}
+
+.songinfo img {
+    opacity: 0;
+    transition: opacity 0.4s ease-in;
+}
